@@ -24,27 +24,25 @@
 ## Create a Basic Dashboard
 *TODO:* Create a dashboard in Grafana that shows Prometheus as a source. Take a screenshot and include it here.
 
-<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/basic_dashboard_1.png">
-
-<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/basic_dashboard_2.png">
+<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/basic_dashboard.png">
 
 ## Describe SLO/SLI
 *TODO:* Describe, in your own words, what the SLIs are, based on an SLO of *monthly uptime* and *request response time*.
 
 SLIs or Service Level Indicators are measurable indicators of how the application/website/service is faring compared to the promise of the organization to its customers and stakeholders. This promise is also known as SLOs or Service Level Objectives. 
 
-An example SLI for a monthly uptime is the rate of the 20x or 30x (valid requests) responses of the website in a total incoming requests per month. For example, the average 20x or 30x responses of the web application for the month of October 2021 is 97.99%.
+An example SLI for a monthly uptime is the rate of the 20x or 30x (valid requests) responses of the website in a total incoming requests per month. For example, the average 20x or 30x responses of the web application for the month of October 2022 is 97.99%.
 
-On the other hand, the SLI for a request response time is how long the request took to be served in actuality. For example, it took an average of 700ms for incoming requests to be served in the month of October 2021.
+On the other hand, the SLI for a request response time is how long the request took to be served in actuality. For example, it took an average of 700ms for incoming requests to be served in the month of October 2022.
 
 ## Creating SLI metrics.
 *TODO:* It is important to know why we want to measure certain metrics for our customer. Describe in detail 5 metrics to measure these SLIs. 
 
-1. The average 20x or 30x responses of the web application for the month of October 2021 is 97.99%.
-2. It took an average of 700ms for incoming requests to be served for the month of October 2021.
-3. 1.5% of the total incoming requests had 50x responses for the month of October 2021.
-4. The average CPU usage of the web application for the month of October 2021 is 83.67%.
-5. The login requests in the web application for the month of October 2021 took an average of 2 seconds to be served.
+1. The average 20x or 30x responses of the web application for the month of October 2022 is 97.99%.
+2. It took an average of 700ms for incoming requests to be served for the month of October 2022.
+3. 1.5% of the total incoming requests had 50x responses for the month of October 2022.
+4. The average CPU usage of the web application for the month of October 2022 is 83.67%.
+5. The login requests in the web application for the month of October 2022 took an average of 2 seconds to be served.
 
 ## Create a Dashboard to measure our SLIs
 *TODO:* Create a dashboard to measure the uptime of the frontend and backend services We will also want to measure to measure 40x and 50x errors. Create a dashboard that show these values over a 24 hour period and take a screenshot.
@@ -88,7 +86,7 @@ TROUBLE TICKET
 
 Name: Juan dela Cruz
 
-Date: November 6, 2021
+Date: November 6, 2022
 
 Subject: Backend service's star endpoint shows "Method Not Allowed" error 405.
 
@@ -112,32 +110,32 @@ Description: The Mongo database connection cannot be found. The tracer span is 2
 
 **SLIs:**
 
-1. The average 20x or 30x responses of the web application for the month of October 2021 is 97.99%.
-2. 1.5% of the total incoming requests had 50x responses for the month of October 2021.
-3. It took an average of 1070 ms for incoming requests to be served for the month of October 2021.
-4. The average CPU usage of the application is 42.65% for the month of October 2021.
-5. The average memory usage of the application is 300Mib for the month of October 2021.
+1. The average 20x or 30x responses of the web application for the month of October 2022 is 97.99%.
+2. 1.5% of the total incoming requests had 50x responses for the month of October 2022.
+3. It took an average of 1070 ms for incoming requests to be served for the month of October 2022.
+4. The average CPU usage of the application is 42.65% for the month of October 2022.
+5. The average memory usage of the application is 300Mib for the month of October 2022.
 
 ## Building KPIs for our plan
 *TODO*: Now that we have our SLIs and SLOs, create a list of 2-3 KPIs to accurately measure these metrics as well as a description of why those KPIs were chosen. We will make a dashboard for this, but first write them down here.
 
-1. The average 20x or 30x responses of the web application for the month of October 2021 is 97.99%.
+1. The average 20x or 30x responses of the web application for the month of October 2022 is 97.99%.
    - Monthly uptime - this KPI indicates the total usability of the application.
    - 20x code responses per month - this KPI indicates availability of the pages of the application.
    - Monthly traffic - this KPI will indicate the number of requests served by the application.
-2. 1.5% of the total incoming requests had 50x responses for the month of October 2021.
+2. 1.5% of the total incoming requests had 50x responses for the month of October 2022.
    - Monthly downtime - this KPI indicates the number of times the application was down
    - Errors per month - this KPI will indicate the monthly errors encountered in the application.
    - Monthly traffic - this KPI will indicate the number of requests served by the application.
-3. It took an average of 1070 ms for incoming requests to be served for the month of October 2021.
+3. It took an average of 1070 ms for incoming requests to be served for the month of October 2022.
    - Average monthly latency - this KPI will indicate the time it took for the application to respond to requests.
    - Monthly uptime - this KPI indicates the total usability of the application.
    - Monthly traffic - this KPI will indicate the number of requests served by the application.
-4. The average CPU usage of the application is 42.65% for the month of October 2021.
+4. The average CPU usage of the application is 42.65% for the month of October 2022.
    - Average monthly CPU usage of pod used by the application - this KPI will indicate how much CPU is used by the source pod of the application.
    - Average monthly CPU usage of all the pods - this KPI will indicate how much CPU is used by all the pods required to run the application.
    - Monthly quota limit - this KPI will indicate whether the application is exceeding its usage of the CPU quota.
-5. The average memory usage of the application is 300Mib for the month of October 2021.
+5. The average memory usage of the application is 300Mib for the month of October 2022.
    - Average monthly memory usage of pod used by the application - this KPI will indicate how much memory is used by the source pod of the application.
    - Average monthly memory usage of all the pods - this KPI will indicate how much memory is used by all the pods required to run the application.
    - Monthly quota limit - this KPI will indicate whether the application is exceeding its usage of the memory quota.
