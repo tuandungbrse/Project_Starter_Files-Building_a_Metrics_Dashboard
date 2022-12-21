@@ -6,27 +6,27 @@
 
 #### Pods in all Namespaces
 
-<img src="https://raw.githubusercontent.com/tuandungbrse/observability/main/answer-img/pods_all_ns.png">
+<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/pods_all_ns.png">
 
 #### Services in all Namespaces
 
-<img src="https://raw.githubusercontent.com/tuandungbrse/observability/main/answer-img/svc_all_ns.png">
+<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/svc_all_ns.png">
 
 #### Pods and Services in Monitoring and Observability Namespaces
 
-<img src="https://raw.githubusercontent.com/tuandungbrse/observability/main/answer-img/pods_svc_monitoring_and_observability_ns.png">
+<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/pods_svc_monitoring_and_observability_ns.png">
 
 ## Setup the Jaeger and Prometheus source
 *TODO:* Expose Grafana to the internet and then setup Prometheus as a data source. Provide a screenshot of the home page after logging into Grafana.
 
-<img src="https://raw.githubusercontent.com/tuandungbrse/observability/main/answer-img/grafana.png">
+<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/grafana.png">
 
 ## Create a Basic Dashboard
 *TODO:* Create a dashboard in Grafana that shows Prometheus as a source. Take a screenshot and include it here.
 
-<img src="https://raw.githubusercontent.com/tuandungbrse/observability/main/answer-img/basic_dashboard_1.png">
+<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/basic_dashboard_1.png">
 
-<img src="https://raw.githubusercontent.com/tuandungbrse/observability/main/answer-img/basic_dashboard_2.png">
+<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/basic_dashboard_2.png">
 
 ## Describe SLO/SLI
 *TODO:* Describe, in your own words, what the SLIs are, based on an SLO of *monthly uptime* and *request response time*.
@@ -66,20 +66,20 @@ On the other hand, the SLI for a request response time is how long the request t
 
 #### Prometheus SLI Dashboard
 
-<img src="https://raw.githubusercontent.com/tuandungbrse/observability/main/answer-img/dashboard_prometheus_sli.png">
+<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/dashboard_prometheus_sli.png">
 
 ## Tracing our Flask App
 *TODO:*  We will create a Jaeger span to measure the processes on the backend. Once you fill in the span, provide a screenshot of it here. Also provide a (screenshot) sample Python file containing a trace and span code used to perform Jaeger traces on the backend service.
 
-<img src="https://raw.githubusercontent.com/tuandungbrse/observability/main/answer-img/span_in_Flask_app.png">
+<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/span_in_Flask_app.png">
 
 
-<img src="https://github.com/tuandungbrse/observability/blob/main/answer-img/backend_in_jaeger.png?raw=true">
+<img src="https://github.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/backend_in_jaeger.png?raw=true">
 
 ## Jaeger in Dashboards
 *TODO:* Now that the trace is running, let's add the metric to our current Grafana dashboard. Once this is completed, provide a screenshot of it here.
 
-<img src="https://raw.githubusercontent.com/tuandungbrse/observability/main/answer-img/backend_in_grafana.png">
+<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/backend_in_grafana.png">
 
 ## Report Error
 *TODO:* Using the template below, write a trouble ticket for the developers, to explain the errors that you are seeing (400, 500, latency) and to let them know the file that is causing the issue also include a screenshot of the tracer span to demonstrate how we can user a tracer to locate errors easily.
@@ -145,7 +145,7 @@ Description: The Mongo database connection cannot be found. The tracer span is 2
 ## Final Dashboard
 *TODO*: Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.  
 
-<img src="https://raw.githubusercontent.com/tuandungbrse/observability/main/answer-img/final_dashboard.png">
+<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/final_dashboard.png">
 
 1. Uptime panel - this represents the 20x/30x (successful) responses of the application.
 2. 50x and 40x Errors panel - these represents the 40x/50x (error) responses of the application.
