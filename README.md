@@ -71,7 +71,7 @@ On the other hand, the SLI for a request response time is how long the request t
 ## Tracing our Flask App
 *TODO:*  We will create a Jaeger span to measure the processes on the backend. Once you fill in the span, provide a screenshot of it here. Also provide a (screenshot) sample Python file containing a trace and span code used to perform Jaeger traces on the backend service.
 
-<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/span_in_Flask_app.png">
+<img src="https://raw.githubusercontent.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/main/answer-img/span_in_Flask_app_1.png">
 
 
 <img src="https://github.com/tuandungbrse/Project_Starter_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/backend_in_jaeger.png?raw=true">
